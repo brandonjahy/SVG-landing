@@ -21,6 +21,7 @@ header .navbar a{
     text-decoration: none;
     margin: 10px 30px;
     font-size: 1.3rem;
+    font-weight: 500;
     text-transform: uppercase;
     color: #e3e3e3;
     transition: all .4s ease-in-out;
@@ -70,11 +71,13 @@ section .container .layout .card1{
     place-self: center;
     border-radius: 10px;
     transition: all .4s ease-in-out;
+    transition: background .6s ease-in-out;
 }
 
 section .container .layout .card1:hover {
     transform: scale(1.1);
-    background-color: #e3625f;
+    /* background-color: #e3625f; */
+    background: url("https://media.giphy.com/media/ayMW3eqvuP00o/giphy.gif") center/ cover no-repeat;
     -webkit-box-shadow: 3px 7px 14px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 7px 14px -1px rgba(0,0,0,0.75);
     box-shadow: 3px 7px 14px -1px rgba(0,0,0,0.75);
@@ -113,7 +116,8 @@ section .container .layout .card2{
 
 section .container .layout .card2:hover {
     transform: scale(1.1);
-    background-color: #e3625f;
+    /* background-color: #e3625f; */
+    background: url("https://media.giphy.com/media/PRU4TqzdyLCHS/giphy.gif") center/ cover no-repeat;
     -webkit-box-shadow: 3px 7px 14px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 7px 14px -1px rgba(0,0,0,0.75);
     box-shadow: 3px 7px 14px -1px rgba(0,0,0,0.75);
@@ -130,7 +134,8 @@ section .container .layout .card3{
 
 section .container .layout .card3:hover {
     transform: scale(1.1);
-    background-color: #e3625f;
+    /* background-color: #e3625f; */
+    background: url("https://media.giphy.com/media/iNpWOiqUFsgU0/giphy.gif") center/ cover no-repeat;
     -webkit-box-shadow: 3px 7px 14px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 7px 14px -1px rgba(0,0,0,0.75);
     box-shadow: 3px 7px 14px -1px rgba(0,0,0,0.75);
