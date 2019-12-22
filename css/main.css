@@ -1,6 +1,7 @@
 @import "reset.css";
 
 
+
 header {
     width: 100%;
     height: 15vh;
@@ -41,7 +42,6 @@ section .container{
     height: 60vh;
     top: 40px;
     left: 72px;
-    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,32 +54,84 @@ section .container .layout{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     margin: 0 -5px;
+}
+
+section .container .layout .text-block{
+    margin-top: 150px;
 }
 
 section .container .layout .card1{
     height: 100%;
     width: 100%;
-    background: #eee;
-    margin: 0 5px;
+    background: rgba(0,0,0, .3);
+    margin: 0 15px;
     place-self: center;
-    border: 1px solid #000;
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
 }
+
+section .container .layout .card1:hover {
+    transform: scale(1.1);
+    background-color: #e3625f;
+    -webkit-box-shadow: 3px 7px 14px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 7px 14px -1px rgba(0,0,0,0.75);
+    box-shadow: 3px 7px 14px -1px rgba(0,0,0,0.75);
+}
+
+section .container .layout h1{
+    padding: 40px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+section .container .layout p{
+    padding: 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+section .container .layout .icon{
+    color: #fff;
+    font-size: 5rem;
+}
+
+
 
 section .container .layout .card2{
     height: 100%;
     width: 100%;
-    background: #eee;
-    margin: 0 5px;
+    background: rgba(0,0,0, .3);
+    margin: 0 15px;
     place-self: center;
-    border: 1px solid #000;
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+}
+
+section .container .layout .card2:hover {
+    transform: scale(1.1);
+    background-color: #e3625f;
+    -webkit-box-shadow: 3px 7px 14px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 7px 14px -1px rgba(0,0,0,0.75);
+    box-shadow: 3px 7px 14px -1px rgba(0,0,0,0.75);
 }
 
 section .container .layout .card3{
     height: 100%;
     width: 100%;
-    background: #eee;
-    margin: 0 5px;
-    border: 1px solid #000;
-    justify-self: center;
+    background: rgba(0,0,0, .3);
+    margin: 0 15px;
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+}
+
+section .container .layout .card3:hover {
+    transform: scale(1.1);
+    background-color: #e3625f;
+    -webkit-box-shadow: 3px 7px 14px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 7px 14px -1px rgba(0,0,0,0.75);
+    box-shadow: 3px 7px 14px -1px rgba(0,0,0,0.75);
 }
